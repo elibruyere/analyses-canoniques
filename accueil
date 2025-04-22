@@ -1,1 +1,60 @@
 <title>Analyses canoniques</title>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Analyses canoniques</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdfdfd;
+      color: #222;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #4b0082;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 1rem 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    a:hover {
+      color: #8e44ad;
+    }
+  </style>
+</head>
+<body>
+  <h1>Analyses canoniques</h1>
+  <p>Voici les textes canoniques analysés en latin avec annotations interactives :</p>
+  <ul>
+    <li>
+      <a href="https://elibruyere.github.io/Revocatur-privilegium-praecedentiae-titulo-Missionarii-Apostolici-adnexum/" target="_blank">
+        ✦ Revocatur privilegium praecedentiae (Décret)
+      </a>
+    </li>
+    <li>
+      <a href="https://elibruyere.github.io/Canon-1254-2/" target="_blank">
+        ✦ Canon 1254 §1–2 : De bonis temporalibus Ecclesiae
+      </a>
+    </li>
+  </ul>
+</body>
+</html>
