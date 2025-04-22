@@ -38,11 +38,48 @@
     a:hover {
       color: #8e44ad;
     }
+
+    /* Définition des couleurs pour les différents cas grammaticaux */
+    .nominatif { color: yellow; }
+    .accusatif { color: green; }
+    .genitif { color: blue; }
+    .datif { color: orange; }
+    .ablatif { color: red; }
+
+    /* Légende des couleurs */
+    .legende {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-radius: 8px;
+    }
+
+    .legende h2 {
+      font-size: 1.5rem;
+      color: #4b0082;
+    }
+
+    .legende ul {
+      padding-left: 20px;
+    }
+
+    .legende li {
+      margin: 0.5rem 0;
+    }
+
+    .color-box {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
   </style>
 </head>
 <body>
   <h1>Analyses canoniques</h1>
-  <p>Voici les textes canoniques en latin analysés avec annotations interactives :</p>
+  <p>Voici les textes canoniques analysés en latin avec annotations interactives :</p>
+  
   <ul>
     <li>
       <a href="https://elibruyere.github.io/Revocatur-privilegium-praecedentiae-titulo-Missionarii-Apostolici-adnexum/" target="_blank">
@@ -51,9 +88,22 @@
     </li>
     <li>
       <a href="https://elibruyere.github.io/Canon-1254-2/" target="_blank">
-        ✦ De bonis temporalibus Ecclesiae (Canon 1254 §2)
+        ✦ Canon 1254 §1–2 : De bonis temporalibus Ecclesiae
       </a>
     </li>
   </ul>
+  
+  <!-- Légende des couleurs -->
+  <div class="legende">
+    <h2>Légende des couleurs</h2>
+    <ul>
+      <li><span class="color-box" style="background-color: yellow;"></span> Nominatif : utilisé pour le sujet ou le nom principal de la phrase</li>
+      <li><span class="color-box" style="background-color: green;"></span> Accusatif : utilisé pour l'objet direct de la phrase</li>
+      <li><span class="color-box" style="background-color: blue;"></span> Génitif : utilisé pour indiquer la possession</li>
+      <li><span class="color-box" style="background-color: orange;"></span> Datif : utilisé pour l'objet indirect de la phrase</li>
+      <li><span class="color-box" style="background-color: red;"></span> Ablatif : utilisé pour des compléments circonstanciels</li>
+    </ul>
+  </div>
+
 </body>
 </html>
